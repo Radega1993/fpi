@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Layout from '../components/Layout';
 
 const Signup = () => {
   const [formData, setFormData] = useState({
@@ -24,6 +25,8 @@ const Signup = () => {
   };
 
   return (
+    <Layout>
+
     <div className="p-8">
       <h1 className="text-4xl font-bold mb-4">Formulario de Inscripción</h1>
       <form onSubmit={handleSubmit} className="space-y-4">
@@ -62,6 +65,7 @@ const Signup = () => {
         </button>
       </form>
     </div>
+    </Layout>
   );
 };
 

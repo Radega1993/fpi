@@ -8,6 +8,7 @@ const Navbar = () => {
         <li><Link to="/" className="hover:text-[#17e5e5]">Inicio</Link></li>
         <li><Link to="/tournaments" className="hover:text-[#17e5e5]">Torneos</Link></li>
         <li><Link to="/signup" className="hover:text-[#17e5e5]">Inscripción</Link></li>
+        <li><Link to="/admin" className="hover:text-[#17e5e5]">AdminPanel</Link></li>
         <li><Link to="/contact" className="hover:text-[#17e5e5]">Contacto</Link></li>
       </ul>
     </nav>

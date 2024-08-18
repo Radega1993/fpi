@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../components/Header';
+import Layout from '../components/Layout';
 import Hero from '../components/Hero';
 import NewsSection from '../components/NewsSection';
 import TournamentSection from '../components/TournamentSection';
@@ -8,14 +8,13 @@ import Footer from '../components/Footer';
 
 const Home = () => {
   return (
-    <div className="bg-gray-100 text-gray-900">
-      <Header />
+    <Layout>
       <Hero />
       <NewsSection />
       <TournamentSection />
       <ContactSection />
       <Footer />
-    </div>
+    </Layout>
   );
 };
 
